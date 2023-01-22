@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+
+.header_main{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    position: sticky; 
+     
+}
+.sticky{  
+    position: sticky; 
+}
+.navbar_logo{
+    font-size: 32px;
+    color: #ddda09;
+}
+.nav1 {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.nav2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 12px;
+}
+.nav3{
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    display: inline-flex;    
+}
+.nav3 ul button a{
+    text-decoration: none;
+    color: #000000;
+}
+.cart_icon{
+    color: #ddda09;
+}
+.searchbtn {
+    border: 2px solid #ddda09;
+    border-radius:0 7px 0 0;
+    background-color: #ddda09;
+}
+.input1{
+    border: 2px solid #ffffff;
+    border-radius:0 0 0 7px;
+}
+.login{
+    border: 2px solid #ddda09;
+    border-radius:4px;
+    font-size: 20px;
+    background-color: #ddda09;
+    margin-top: 3px;
+    transition: .3s;
+}
+.login:hover{
+    text-shadow: 1px 2px 5px #000000;
+}
+/* Navbar style */
+.navbar-collapse{
+    margin-left: 30%;   
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ddda09;
+    margin: 0;
+}
+.navlink{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ddda09;
+    margin: 0;
+}
+.nav-link:hover{
+    border-radius: 4px;
+    color: #000000; 
+    background-color: #ddda09;
+}
+.dorpdown_men_and_women{
+    border: none;
+}
+.all_products{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
